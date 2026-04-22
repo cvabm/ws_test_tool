@@ -1,0 +1,39 @@
+# Node.js 依赖
+node_modules/
+
+# 日志文件目录（按天存储的消息记录）
+ws-logs/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件（防止任何散落的日志）
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE 及编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 打包文件
+*.zip
+*.tar.gz
